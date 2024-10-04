@@ -1,6 +1,6 @@
 <div align="center">
   <img src="docs/static/favicon.svg" width="100">
-  <p><strong>Rye:</strong> a Hassle-Free Python Experience</p>
+  <p><strong>Rye:</strong> 一个无麻烦的Python体验</p>
 </div>
 
 ----
@@ -11,64 +11,55 @@
 
 </div>
 
-Rye is a comprehensive project and package management solution for Python.
-Born from [its creator's](https://github.com/mitsuhiko) desire to establish a
-one-stop-shop for all Python users, Rye provides a unified experience to install and manage Python
-installations, `pyproject.toml` based projects, dependencies and virtualenvs
-seamlessly.  It's designed to accommodate complex projects, monorepos and to
-facilitate global tool installations.  Curious? [Watch an introduction](https://youtu.be/q99TYA7LnuA).
+Rye是Python的一个全面的项目和包管理解决方案。
+Rye诞生于[其创作者](https://github.com/mitsuhiko)希望为所有Python用户建立一个一站式服务的愿望，它提供了统一的体验来安装和管理Python安装、基于`pyproject.toml`的项目、依赖和虚拟环境。
+它旨在适应复杂的项目、单体库仓库，并促进全局工具的安装。你好奇吗？[观看介绍视频](https://youtu.be/q99TYA7LnuA)。
 
-A hassle-free experience for Python developers at every level.
+对于每个层次的Python开发者来说，这是一个无麻烦的体验。
 
 <div align="center">
   <a href="https://youtu.be/q99TYA7LnuA">
     <img src="https://img.youtube.com/vi/q99TYA7LnuA/hqdefault.jpg" alt="Watch the instruction" width="40%">
   </a>
-  <p><em>Click on the thumbnail to watch a 16 minute introduction video</em></p>
+  <p><em>点击缩略图观看16分钟的介绍视频</em></p>
 </div>
 
-## In The Box
+## 包含的内容
 
-Rye picks and ships the right tools so you can get started in minutes:
+Rye选择并提供正确的工具，让你可以在几分钟内开始：
 
-* **Bootstraps Python:** it provides an automated way to get access to the amazing [Indygreg Python Builds](https://github.com/indygreg/python-build-standalone/) as well as the PyPy binary distributions.
-* **Linting and Formatting:** it bundles [ruff](https://github.com/astral-sh/ruff) and makes it available with `rye lint` and `rye fmt`.
-* **Managing Virtualenvs:** it uses the well established virtualenv library under the hood.
-* **Building Wheels:** it delegates that work largely to [build](https://pypi.org/project/build/).
-* **Publishing:** its publish command uses [twine](https://pypi.org/project/twine/) to accomplish this task.
-* **Locking and Dependency Installation:** is today implemented by using [uv](https://github.com/astral-sh/uv) with a fallback to [unearth](https://pypi.org/project/unearth/) and [pip-tools](https://github.com/jazzband/pip-tools/).
-* **Workspace support:** Rye lets you work with complex projects consisting
-  of multiple libraries.
+* **引导Python：** 它提供了一种自动化的方式来访问令人惊叹的[Indygreg Python Builds](https://github.com/indygreg/python-build-standalone/)以及PyPy二进制发行版。
+* **代码检查和格式化：** 它捆绑了[ruff](https://github.com/astral-sh/ruff)，并通过`rye lint`和`rye fmt`使其可用。
+* **管理虚拟环境：** 它在内部使用了广泛使用的virtualenv库。
+* **构建Wheel包：** 它主要委托给[build](https://pypi.org/project/build/)来完成这项工作。
+* **发布：** 它的发布命令使用[twine](https://pypi.org/project/twine/)来完成这个任务。
+* **锁定和依赖安装：** 目前使用[uv](https://github.com/astral-sh/uv)来实现，如果不可用，则回退到[unearth](https://pypi.org/project/unearth/)和[pip-tools](https://github.com/jazzband/pip-tools/)。
+* **工作区支持：** Rye允许你处理由多个库组成的复杂项目。
 
-## Installation
+## 安装
 
-The installation takes just a minute:
+安装只需一分钟：
 
-* **Linux and macOS:**
+* **Linux和macOS：**
 
     ```
     curl -sSf https://rye.astral.sh/get | bash
     ```
 
-* **Windows:**
+* **Windows：**
 
-    Download and run the installer ([64-bit (x86-64)](https://github.com/astral-sh/rye/releases/latest/download/rye-x86_64-windows.exe) or [32-bit (x86)](https://github.com/astral-sh/rye/releases/latest/download/rye-x86-windows.exe)).
+    下载并运行安装程序（[64位(x86-64)](https://github.com/astral-sh/rye/releases/latest/download/rye-x86_64-windows.exe)或[32位(x86)](https://github.com/astral-sh/rye/releases/latest/download/rye-x86-windows.exe)）。
 
-For more details and other options, refer to the [installation instructions](https://rye.astral.sh/guide/installation/).
+有关更多详细信息和其他选项，请参阅[安装说明](https://rye.astral.sh/guide/installation/)。
 
-## Learn More
+## 了解更多
 
-Did I spark your interest?
+我激发了你的兴趣吗？
 
-* [Visit the Website](https://rye.astral.sh/)
-* [Read the Documentation](https://rye.astral.sh/guide/)
-* [Report Problems in the Issue Tracker](https://github.com/astral-sh/rye/issues)
+* [访问网站](https://rye.astral.sh/)
+* [阅读文档](https://rye.astral.sh/guide/)
+* [在问题跟踪器中报告问题](https://github.com/astral-sh/rye/issues)
 
-## More
+## 更多
 
-* [Discussion Forum](https://github.com/astral-sh/rye/discussions), to discuss the project
-  on GitHub
-* [Discord](https://discord.gg/drbkcdtSbg), for conversations with other developers in text form
-* [Issue Tracker](https://github.com/astral-sh/rye/issues), if you run into bugs or have suggestions
-* [Badges](https://rye.astral.sh/community/#badges), if you want to show that you use Rye
-* License: MIT
+* [讨论论坛](https://github.com/astral-sh/rye/discussions)，在GitHub
